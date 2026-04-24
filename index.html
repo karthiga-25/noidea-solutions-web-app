@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <meta name="description" content="No Idea Solutions is a trusted student project and training company dedicated to delivering innovative academic projects with precision and professionalism.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="online project, no idea solution, online download project, free project, cs project, computer scince project, finally year project, ug project, python , java, web desing project, power-pi project">
+  <meta name="document-classification" content="education">
+  <meta name="author" content="Karthiga M">
+  <meta name="google-site-verification" content="ABC123xyz..." />
+  <title>No Idea Solutions</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+
+</div>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="No Idea Solutions Logo">
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#weare">Who We Are</a>
+      <a href="#mission">Mission</a>
+      <a href="#services">What We Do</a>
+      <a href="#projects">Projects</a><br>
+      <a href="#getit">How To Get</a>
+      <a href="#about">About</a>
+      <a href="#project-titles">Titles</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <h1>Welcome to No Idea Solutions</h1>
+    <p>Innovative Final Year Projects for Computer Field Related Students</p>
+    <a href="#contact" class="cta-button">Get Started</a>
+  </section>
+
+  <!-- Who We Are -->
+  <section id="weare">
+    <div class="section-title"><h2>Who We Are</h2></div>
+    <p>We specialize in delivering innovative, high-quality, and technically sound final year projects for students. NO IDEA SOLUTIONS functions as a freelancing initiative.</p>
+  </section>
+
+  <!-- Mission -->
+  <section id="mission">
+    <div class="section-title"><h2>Mission Focus</h2></div>
+    <p>Our mission is to deliver comprehensive, innovative, and academically aligned project solutions that empower students to excel with confidence and competence.</p>
+  </section>
+
+  <!-- What We Do -->
+  <section id="services">
+    <div class="section-title"><h2>What We Do</h2></div>
+    <div class="project-grid">
+      <div class="project-card php"><i class="fa-solid fa-globe"></i> Web Based Projects</div>
+      <div class="project-card ml"><i class="fa-solid fa-people-group"></i> Mini & Group Projects</div>
+      <div class="project-card ai"><i class="fa-solid fa-laptop-code"></i> Code & Demo</div>
+      <div class="project-card ds"><i class="fa-solid fa-file-alt"></i> Report Writing</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="section-title"><h2>Our Projects</h2></div>
+    <div class="project-grid">
+      <div class="project-card php"><i class="fa-brands fa-php"></i> PHP Development</div>
+      <div class="project-card ml"><i class="fa-solid fa-robot"></i> Machine Learning</div>
+      <div class="project-card ai"><i class="fa-solid fa-brain"></i> Artificial Intelligence</div>
+      <div class="project-card ds"><i class="fa-solid fa-database"></i> Data Science</div>
+      <div class="project-card java"><i class="fa-brands fa-java"></i> Java Applications</div>
+      <div class="project-card python"><i class="fa-brands fa-python"></i> Python Solutions</div>
+      <div class="project-card dotnet"><i class="fa-brands fa-microsoft"></i> .NET Framework</div>
+      <div class="project-card dav"><i class="fa-solid fa-chart-line"></i> Data Analysis and Visualization</div>
+    </div>
+  </section>
+
+  <!-- How To Get -->
+  <section id="getit">
+    <div class="section-title"><h2>How To Get</h2></div>
+    <div class="project-grid">
+      <div class="project-card php"><i class="fa-solid fa-mobile-screen"></i> Online Support</div>
+      <div class="project-card ml"><i class="fa-solid fa-video"></i> Google Meet / Zoom</div>
+      <div class="project-card ai"><i class="fa-solid fa-folder-open"></i> File Delivery</div>
+      <div class="project-card ds"><i class="fa-solid fa-gift"></i> Combo Packages</div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="section-title"><h2>About Us</h2></div>
+    <p>We help students build futuristic final-year projects in multiple domains like AI, ML, Data Science, Full Stack Java-Python, PHP Development, and Software Development.</p>
+  </section>
+
+<!-- Project Titles -->
+<section id="project-titles" aria-label="Project Titles">
+  <div class="section-title"><center><h2>Project Titles</h2></center></div>
+
+  <div class="titles-top">
+    <div class="pt-search" title="Search projects">
+      <i class="fa-solid fa-magnifying-glass" style="color:var(--muted,#A3A3A3)"></i>
+      <input id="ptSearch" placeholder="Search project titles or keywords (e.g., 'library', 'prediction')" />
+    </div>
+
+    <div class="pt-filters" id="ptFilters" aria-hidden="false"></div>
+
+    <button id="ptReset" class="pt-filter" title="Reset filters">Reset</button>
+  </div>
+
+  <div class="pt-favbar" id="ptFavBar" style="display:none" aria-hidden="true">
+    <div id="ptFavList" style="display:flex;gap:8px;flex-wrap:wrap"></div>
+    <a id="ptDownload" class="pt-btn primary" href="#" download="favorites.txt" style="margin-left:auto">Download Favorites</a>
+  </div>
+
+  <div class="pt-list" id="ptList" aria-live="polite"></div>
+</section>
+
+<!-- Modal (hidden by default) -->
+<div id="ptModal" class="pt-modal" aria-hidden="true">
+  <div class="pt-modal-card" role="dialog" aria-modal="true" aria-labelledby="ptModalTitle">
+    <button id="ptModalClose" class="pt-modal-close" title="Close"><i class="fa-solid fa-xmark"></i></button>
+    <h3 id="ptModalTitle">Title</h3>
+    <p id="ptModalCat" class="pt-cat"></p>
+    <p id="ptModalDesc" class="pt-desc"></p>
+    <div style="margin-top:12px;text-align:right">
+      <button id="ptCopy" class="pt-btn">Copy Title</button>
+      <button id="ptFavToggle" class="pt-btn primary">Add to Favorites</button>
+    </div>
+  </div>
+</div>
+
+<div class="highlight">
+  <span>ALL TYPES AND LEVELS OF PROJECTS ARE AVAILABLE HERE</span>
+</div>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="section-title"><h2>Contact Us</h2></div>
+    
+ <form class="contact-form" id="contactForm" action="https://formsubmit.co/noideaprojects@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+
+                     <input type="hidden" name="_captcha" value="false">
+                     <input type="hidden" name="_template" value="table">
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+                <p style="text-align: center; margin-top: 20px;">
+    <p>Email: <b>noideaprojects@gmail.com</b></p>
+    <p>Phone: <b>+91 0123456789</b></p>
+    <p>Location: <b>Freelancing (Online)</b></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 No Idea Solutions. Empowering Students with Smart Project Solutions</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
