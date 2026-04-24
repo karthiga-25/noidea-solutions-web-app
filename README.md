@@ -51,8 +51,8 @@ noidea-solutions-web-app/
 ├── index.html        # 🧱 Main HTML file
 ├── style.css         # 🎨 Styling
 ├── script.js         # ⚡ JavaScript functionality
-│
-└── assets/           # 📁 Images / other resources
+├── assets/
+│   └── screenshot.png         # 📁 Images / other resources
 ```
 
 ---
